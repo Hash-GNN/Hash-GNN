@@ -23,7 +23,7 @@ for i_data, data in enumerate(datasets):
 
 	for turn in turns:
 		for dense in denses:
-			iteration = iterations[i_data]:
+			iteration = iterations[i_data]
 			os.system("./"+method+" -network ../data/" + data + "/" + data + ".adjlist." + str(dense) + \
 				" -feature ../data/" + data + "/features.txt -hashdim 200 -iteration " + str(iteration) + \
 				" -embedding ../results/" + data + "/lp/" + data + ".dense." + str(dense) +"." +method + ".iteration." +str(iteration) + ".embedding.turn." +str(turn) + \
