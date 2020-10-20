@@ -9,8 +9,6 @@ iterations = [1,2,3,4,5]
 ks = [100,150,200,250,300]
 turns = [1,2,3,4,5]
 method = 'hashgnn'
-os.system("rm "+method);
-os.system("g++ -std=c++11 -lm -O3 -march=native -Wall -funroll-loops -ffast-math -Wno-unused-result "+method+".cpp -o "+method+" -lgsl -lm -lgslcblas");
 
 for turn in turns:
 	for i_data, data in enumerate(datasets):
