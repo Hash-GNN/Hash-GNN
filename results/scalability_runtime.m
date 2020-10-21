@@ -26,7 +26,7 @@ for iSample = 1:length(sampledNodes)
         
     end
     runtimes = mean(runtime_samples, 1);
-    save(['./experiments/', data, '.sample.', num2str(sampledNodes(iSample)),'.', method, '.runtime.mat'], 'runtimes')
+    save(['./experiments/', data, '.sample.', num2str(sampledNodes(iSample)),'.', method, '.scalability.runtime.mat'], 'runtimes')
 end
 
 
