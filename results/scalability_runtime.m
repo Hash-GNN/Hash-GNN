@@ -4,7 +4,7 @@ clc
 data = 'dblp11';
 
 
-method='message';
+method='hashgnn';
 turns=5;
 iterations=5;
 sampledNodes = [1000 10000 100000 1000000];

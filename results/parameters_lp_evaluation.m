@@ -5,7 +5,7 @@ ratios = [0.5, 0.6, 0.7, 0.8, 0.9];
 
 times = 10000;
 
-method='message';
+method='hashgnn';
 
 datasets = {'twitter','facebook', 'blog' 'flickr',  'googleplus'};
 turns = 5;

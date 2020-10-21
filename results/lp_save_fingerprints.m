@@ -1,7 +1,7 @@
 clear all
 clc
 
-method='message';
+method='hashgnn';
 
 datasets = {'twitter','facebook', 'blog' 'flickr',  'googleplus'};
 iterations = [3,3,4,1,5];
